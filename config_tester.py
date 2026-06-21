@@ -47,16 +47,38 @@ class ConfigTester:
 
     @staticmethod
     async def tcp_ping(host, port=443, timeout=5):
-        r={"reachable":False,"latency_ms":0,"error":""}
+        r={"reachable":False,"latency_ms":0,"error":"","port_used":port}
         if not host: return r
-        try:
-            s=time.perf_counter()
-            _,w=await asyncio.wait_for(asyncio.open_connection(host,port),timeout)
-            r["latency_ms"]=round((time.perf_counter()-s)*1000,1)
-            w.close(); await w.wait_closed(); r["reachable"]=True
-        except asyncio.TimeoutError: r["error"]="Timeout"
-        except ConnectionRefusedError: r["error"]="Refused"
-        except Exception as e: r["error"]=str(e)[:20]
+        
+        # لیست پورت‌های fallback
+        ports_to_try = [port]
+        if port == 443:
+            ports_to_try += [8443, 2096, 8080, 80, 4433, 1443, 2053, 2083, 2087, 8880]
+        elif port == 80:
+            ports_to_try += [8080, 443, 8443, 2096]
+        else:
+            ports_to_try += [443, 8443, 2096, 8080, 80]
+        
+        # حذف تکراری‌ها
+        ports_to_try = list(dict.fromkeys(ports_to_try))
+        
+        for try_port in ports_to_try[:6]:  # حداکثر ۶ پورت تست کن
+            try:
+                s=time.perf_counter()
+                _,w=await asyncio.wait_for(asyncio.open_connection(host,try_port),timeout)
+                r["latency_ms"]=round((time.perf_counter()-s)*1000,1)
+                w.close(); await w.wait_closed()
+                r["reachable"]=True
+                r["port_used"]=try_port
+                return r
+            except asyncio.TimeoutError:
+                continue
+            except ConnectionRefusedError:
+                continue
+            except Exception:
+                continue
+        
+        r["error"]="All ports closed"
         return r
 
     @staticmethod
