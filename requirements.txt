@@ -1,0 +1,31 @@
+# Alex VPN AI Assistant Bot
+
+ربات هوشمند پشتیبانی VPN برای تلگرام با استفاده از Python 3.12، aiogram 3.x و Groq API.
+
+**نام ربات در تلگرام:** [@AlexvpnAiAssistantbot](https://t.me/AlexvpnAiAssistantbot)  
+**پشتیبانی انسانی:** [@Alexvpnsupport](https://t.me/Alexvpnsupport)
+
+## 🚀 قابلیت‌ها
+
+- پاسخگویی هوشمند به سوالات کاربران به فارسی و انگلیسی
+- راهنمایی در نصب و راه‌اندازی VPN با پروتکل‌های مختلف
+- عیب‌یابی مشکلات رایج اتصال VPN
+- ارجاع خودکار مشکلات پیچیده به پشتیبانی انسانی
+- مدیریت کامل خطاها و جلوگیری از کرش
+- لاگ‌گیری کامل در فایل
+
+## 📋 پیش‌نیازها
+
+- **سیستم عامل:** Ubuntu Server 20.04 یا جدیدتر
+- **پایتون:** نسخه 3.12
+- **ابزارها:** `git`, `python3.12-venv`, `pip`
+- **توکن ربات تلگرام:** از [BotFather](https://t.me/BotFather)
+- **کلید API گروک:** از [GroqCloud Console](https://console.groq.com)
+
+## 📥 نصب و راه‌اندازی
+
+### ۱. کلون کردن پروژه
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Alexvpnbot.git
+cd Alexvpnbot
