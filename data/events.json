@@ -1,0 +1,500 @@
+[
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:19:52.936653"
+  },
+  {
+    "event_type": "user_start",
+    "description": "کاربر جدید: Support (@CRMsupports)",
+    "user_id": 7452540885,
+    "timestamp": "2026-06-21T07:19:53.296452"
+  },
+  {
+    "event_type": "user_start",
+    "description": "کاربر جدید: Support (@CRMsupports)",
+    "user_id": 7452540885,
+    "timestamp": "2026-06-21T07:19:57.580904"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:21:38.036176"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:23:01.074176"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:24:17.876677"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:25:07.089510"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:26:20.515685"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:27:14.783116"
+  },
+  {
+    "event_type": "admin_login",
+    "description": "ادمین 7452540885 وارد پنل شد",
+    "user_id": 7452540885,
+    "timestamp": "2026-06-21T07:27:21.828863"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:30:51.076469"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:31:37.290264"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:32:57.876032"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:34:08.138722"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:35:04.964842"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:35:55.158545"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:36:49.916055"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:37:16.778314"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:37:59.875954"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:38:22.351454"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:40:50.755659"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:41:16.904775"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:43:08.199217"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:43:44.158785"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:44:09.017057"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:44:27.008374"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:44:55.078012"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:45:07.777746"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:45:58.514969"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:46:20.251056"
+  },
+  {
+    "event_type": "error",
+    "description": "خطا: maximum recursion depth exceeded",
+    "user_id": 7321524568,
+    "timestamp": "2026-06-21T07:46:32.777758"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:47:00.877828"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:47:05.376751"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:47:11.068593"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:47:47.077253"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:48:31.678560"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:48:44.475505"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:49:10.075848"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:50:54.249081"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:52:59.636324"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:53:37.533101"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:56:18.517584"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:56:31.427956"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T07:59:55.800106"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T08:00:17.485002"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T08:59:26.346614"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:01:16.231826"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:02:55.271182"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:03:41.341850"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:06:15.590941"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:08:35.010313"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:14:39.344569"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:15:05.644196"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:16:52.506533"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:17:51.806373"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:18:57.906149"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:20:51.157778"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:22:34.937248"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:22:37.095725"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:23:42.506444"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:24:39.618447"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:26:13.747727"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:27:02.272043"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:27:33.706252"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:27:55.365170"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:56:23.419341"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T09:58:49.790806"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:04:30.932958"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:05:30.661699"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:09:45.623466"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:11:40.740611"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:13:58.127665"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:14:46.157107"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:17:13.163240"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:17:23.330490"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:19:44.795195"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:20:41.734914"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:22:48.113788"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:23:31.449273"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:26:08.873842"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:26:44.584584"
+  },
+  {
+    "event_type": "bot_stop",
+    "description": "ربات متوقف شد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:28:28.195512"
+  },
+  {
+    "event_type": "bot_start",
+    "description": "ربات شروع به کار کرد",
+    "user_id": null,
+    "timestamp": "2026-06-21T10:30:12.433849"
+  }
+]

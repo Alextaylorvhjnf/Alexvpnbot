@@ -8,12 +8,12 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-# افزودن مسیر پروژه به sys.path برای import راحت‌تر ماژول‌ها
 sys.path.append(str(Path(__file__).parent))
 
 from config import settings
 from handlers import router
 from ai_client import GroqClient
+from admin_panel import admin
 
 # پیکربندی لاگینگ
 log_dir = Path("logs")
@@ -34,36 +34,33 @@ async def main():
     """
     logger.info("Starting Alex VPN AI Assistant Bot...")
     
-    # بررسی وجود تنظیمات ضروری
     if not settings.BOT_TOKEN or not settings.GROQ_API_KEY:
         logger.critical("BOT_TOKEN or GROQ_API_KEY is not set in environment variables. Exiting.")
         return
 
-    # نمونه‌سازی از Groq Client
+    admin.log_event("bot_start", "ربات شروع به کار کرد")
+
     groq_client = GroqClient(api_key=settings.GROQ_API_KEY)
     
-    # راه‌اندازی ربات و Dispatcher
     bot = Bot(
         token=settings.BOT_TOKEN,
         default=DefaultBotProperties(parse_mode=ParseMode.HTML)
     )
     dp = Dispatcher()
     
-    # اضافه کردن router هندلرها
     dp.include_router(router)
     
-    # تزریق وابستگی‌ها (مانند groq_client) به هندلرها
-    # همچنین شناسه ادمین نیز برای دسترسی در هندلرها قرار می‌گیرد
     dp["groq_client"] = groq_client
     dp["admin_id"] = settings.ADMIN_ID
     
     try:
         logger.info("Bot is polling for updates...")
-        # شروع دریافت و پردازش آپدیت‌ها
         await dp.start_polling(bot)
     except Exception as e:
         logger.critical(f"Bot polling failed: {e}", exc_info=True)
+        admin.log_event("error", f"خطای polling: {str(e)[:100]}")
     finally:
+        admin.log_event("bot_stop", "ربات متوقف شد")
         await bot.session.close()
         logger.info("Bot session closed.")
 
@@ -72,5 +69,6 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         logger.info("Bot stopped manually via KeyboardInterrupt.")
+        admin.log_event("bot_stop", "ربات دستی متوقف شد")
     except Exception as e:
         logger.critical(f"Unexpected error: {e}", exc_info=True)

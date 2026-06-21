@@ -1,0 +1,38 @@
+[
+  {
+    "user_id": 7452540885,
+    "username": "CRMsupports",
+    "full_name": "Support",
+    "first_seen": "2026-06-21T07:19:53.296304",
+    "last_seen": "2026-06-21T07:25:25.144042",
+    "message_count": 4,
+    "is_blocked": false
+  },
+  {
+    "user_id": 8667968223,
+    "username": "Alexvpn1998",
+    "full_name": "F4F VPS",
+    "first_seen": "2026-06-21T07:28:12.194089",
+    "last_seen": "2026-06-21T08:04:03.202183",
+    "message_count": 3,
+    "is_blocked": false
+  },
+  {
+    "user_id": 7321524568,
+    "username": "بدون",
+    "full_name": "support",
+    "first_seen": "2026-06-21T07:29:19.419267",
+    "last_seen": "2026-06-21T08:03:01.443274",
+    "message_count": 39,
+    "is_blocked": false
+  },
+  {
+    "user_id": 8002207688,
+    "username": "Alexvpnsupport",
+    "full_name": "Alex Vpn",
+    "first_seen": "2026-06-21T08:57:41.027097",
+    "last_seen": "2026-06-21T10:26:45.970334",
+    "message_count": 26,
+    "is_blocked": false
+  }
+]
