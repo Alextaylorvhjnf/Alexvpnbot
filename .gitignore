@@ -1,0 +1,29 @@
+# فایل .gitignore
+# از کامیت شدن فایل‌های حساس و موقت جلوگیری می‌کند.
+
+# Environment Variables
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Logs
+logs/*.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
