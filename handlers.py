@@ -342,7 +342,7 @@ async def btn_back_to_main(m: types.Message, bot: Bot):
 @router.message(F.text == "🚀 تست سرعت اینترنت")
 async def btn_speed(m: types.Message, bot: Bot):
     await bot.send_chat_action(chat_id=m.chat.id, action="typing")
-    result = await ConfigTester.speed_test()
+    result = await ConfigTester.speed_test_only()
     await m.answer(result, parse_mode="Markdown", reply_markup=get_main_menu_keyboard())
 
 @router.message(F.text == "🛍️ خرید اشتراک")
