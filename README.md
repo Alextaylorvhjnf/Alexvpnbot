@@ -8,9 +8,13 @@ bash <(curl -s https://raw.githubusercontent.com/Alextaylorvhjnf/Alexvpnbot/main
 
 ## 📋 راهنمای کامل
 
-### نصب روی سرور جدید (فقط یک خط):
+### نصب روی سرور متد اصلی :
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Alextaylorvhjnf/Alexvpnbot/main/install.sh)
+cd ~
+rm -rf Alexvpnbot
+git clone https://github.com/Alextaylorvhjnf/Alexvpnbot.git
+cd Alexvpnbot
+bash install.sh
 ```
 
 ### یا دستی:
