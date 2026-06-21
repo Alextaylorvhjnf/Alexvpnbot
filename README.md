@@ -1,3 +1,9 @@
+بله کاملاً درسته! فقط یه خط به بخش آپدیت اضافه کن که کاملتر بشه:
+
+---
+
+## ✅ نسخه نهایی README:
+
 ```markdown
 # 🚀 Alex VPN AI Assistant Bot
 
@@ -29,6 +35,7 @@ bash install.sh
 
 ```bash
 cd ~/Alexvpnbot
+git stash
 git pull origin main
 source venv/bin/activate
 pip install -r requirements.txt -q
@@ -113,6 +120,3 @@ rm -rf ~/Alexvpnbot
 - 🛍️ خرید: [@Alexvpn98bot](https://t.me/Alexvpn98bot)
 - 🆘 پشتیبانی: [@Alexvpnsupport](https://t.me/Alexvpnsupport)
 ```
-
----
-
